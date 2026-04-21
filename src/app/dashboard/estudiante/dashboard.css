@@ -9,11 +9,11 @@
 
 /* Menú lateral */
 .dashboard-sidebar {
-  width: 260px;
-  background: white;
+  background: #f3f3f3; /* gris suave */
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-right: 1px solid #ddd;
+  min-width: 240px;
+
 }
 
 /* Contenido principal */
@@ -65,14 +65,14 @@
 }
 /* Panel contenedor */
 .panel-header {
-  background: white;
-  padding: 20px;
-  border-radius: 10px 10px 0 0;
+  background: #e7e7e7; /* gris un poco más marcado */
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
   display: flex;
-  gap: 30px;
-  font-weight: 600;
-  font-size: 15px;
-  border-bottom: 1px solid #eee;
+  flex-direction: column;
+  gap: 10px;
+
 }
 
 .panel-link {
@@ -97,12 +97,13 @@
 }
 
 .panel-item {
-  font-size: 15px;
-  color: #444;
+  display: block;
+  padding: 10px 0;
+  color: #555;
   font-weight: 500;
   cursor: pointer;
-  transition: color 0.2s ease;
 }
+
 
 .panel-item:hover {
   color: #F57C00;
