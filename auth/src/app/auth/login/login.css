@@ -1,0 +1,36 @@
+.login-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: #555;
+  text-align: center;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #F57C00;
+  box-shadow: 0 0 0 2px rgba(245, 124, 0, 0.3);
+}
+
+.login-form {
+  width: 260px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.login-background {
+  background-image: url("/img/Fondo-Login.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
