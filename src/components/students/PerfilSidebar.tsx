@@ -13,7 +13,7 @@ export default function PerfilSidebar() {
           <li><Link href="/dashboard/estudiante/mi-area">Mi Área</Link></li>
           <li className="active"><Link href="/dashboard/estudiante/perfil">Mi Perfil</Link></li>
           <li><Link href="/dashboard/estudiante/catalogo">Catálogo</Link></li>
-          <li><Link href="/dashboard/estudiante/recursos">Recursos</Link></li>
+          <li></li><Link href="/dashboard/estudiante/tutorias">Tutorías</Link>
           <li className="logout"><Link href="/logout">Cerrar sesión</Link></li>
         </ul>
       </nav>

@@ -1,0 +1,116 @@
+.page {
+  padding: 30px 40px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.btnNueva {
+  background: #ff7a00;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btnNueva:hover {
+  background: #ff8f2a;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.table th {
+  background: #f5f5f5;
+  padding: 14px;
+  text-align: left;
+  font-size: 14px;
+  color: #555;
+}
+
+.table td {
+  padding: 14px;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+/* PANEL */
+.panel {
+  margin-top: 30px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 50%;
+}
+
+.panelTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.group label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.group input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.btnEnviar {
+  background: #111;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.btnEnviar:hover {
+  background: #333;
+}
+
+.btnCancelar {
+  background: #ccc;
+  color: #111;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btnCancelar:hover {
+  background: #bbb;
+}
