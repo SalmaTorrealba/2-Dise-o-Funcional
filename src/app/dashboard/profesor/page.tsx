@@ -1,5 +1,6 @@
 "use client";
 
+<<<<<<< HEAD
 import React from "react";
 import "./profesor.css";
 import dynamic from "next/dynamic";
@@ -93,6 +94,25 @@ function DashboardCard({ icon, title, value, subtext }: DashboardCardProps) {
           <p className="subtext">{subtext}</p>
         </div>
       </div>
+=======
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { useUserStore } from "@/store/useUserStore";
+
+export default function ProfesorDashboard() {
+  const router = useRouter();
+  const { role } = useUserStore();
+
+  useEffect(() => {
+    if (role && role !== "profesor") {
+      router.push(`/dashboard/${role}`);
+    }
+  }, [role, router]);
+
+  return (
+    <div>
+      <h1>Panel de Profesor</h1>
+>>>>>>> c982e1fd69a4f72bbe24196cbe06f93e329bfa46
     </div>
   );
 }

@@ -5,7 +5,10 @@ import { signIn } from "next-auth/react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useUserStore } from "@/store/useUserStore";
+<<<<<<< HEAD
 import LoginNavbar from "@/components/LoginNavbar"; 
+=======
+>>>>>>> c982e1fd69a4f72bbe24196cbe06f93e329bfa46
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -37,6 +40,7 @@ export default function LoginPage() {
   }
 
   return (
+<<<<<<< HEAD
     <>
       {/* NAVBAR SOLO CON “INICIAR SESIÓN” */}
       <LoginNavbar />
@@ -88,5 +92,58 @@ export default function LoginPage() {
         </div>
       </div>
     </>
+=======
+    <div className="min-h-screen flex items-center justify-center login-background">
+      <div className="bg-white shadow-lg rounded-lg p-10 w-full max-w-md">
+
+        <h2 className="text-2xl font-bold text-center mb-6 text-gray-800">
+          INICIA TU SESIÓN
+        </h2>
+
+    <form onSubmit={handleLogin} className="login-form">
+
+  <div>
+    <label className="login-label">CORREO ELECTRÓNICO</label>
+    <input
+      type="email"
+      placeholder="Ej. juan.perez@empresa.com"
+      className="login-input"
+      onChange={(e) => setEmail(e.target.value)}
+    />
+  </div>
+
+  <div>
+    <label className="login-label">CONTRASEÑA</label>
+    <input
+      type="password"
+      className="login-input"
+      onChange={(e) => setPassword(e.target.value)}
+    />
+  </div>
+
+  <button
+    type="submit"
+    className="w-full bg-[#F57C00] hover:bg-[#EF6C00] text-white font-semibold py-2 rounded-md transition"
+  >
+    INICIAR SESIÓN
+  </button>
+
+  <p className="text-center text-[11px] text-[#F57C00] font-medium cursor-pointer hover:underline">
+    ¿OLVIDASTE TU CONTRASEÑA?
+  </p>
+
+</form>
+
+        <div className="mt-8 text-center text-xs text-gray-500">
+          <p>Certificaciones de seguridad</p>
+          <div className="flex justify-center gap-4 mt-2">
+            <span className="font-bold">PCI DSS</span>
+            <span className="font-bold">SSL</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+>>>>>>> c982e1fd69a4f72bbe24196cbe06f93e329bfa46
   );
 }

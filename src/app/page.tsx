@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import "./inicio.css";
@@ -61,3 +62,12 @@ export default function InicioPage() {
     </div>
   );
 }
+=======
+export default function Home() {
+  return (
+    <main className="flex items-center justify-center h-screen">
+      <h1 className="text-red-500 text-4xl font-bold">Aula Virtual</h1>
+    </main>
+  );
+}
+>>>>>>> c982e1fd69a4f72bbe24196cbe06f93e329bfa46

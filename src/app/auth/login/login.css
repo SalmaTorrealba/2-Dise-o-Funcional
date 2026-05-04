@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .login-title{
   font-size: 20px;
   font-weight: 700;
@@ -12,16 +13,31 @@
   color: #444;
   text-align: left;
   margin-bottom: 3px;
+=======
+.login-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: #555;
+  text-align: center;
+  margin-bottom: 4px;
+>>>>>>> c982e1fd69a4f72bbe24196cbe06f93e329bfa46
   letter-spacing: 0.5px;
 }
 
 .login-input {
   width: 100%;
+<<<<<<< HEAD
   padding: 7px 10px;
   font-size: 12px;
   border: 1px solid #d3d3d3;
   border-radius: 6px;
   margin-bottom: 12px;
+=======
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+>>>>>>> c982e1fd69a4f72bbe24196cbe06f93e329bfa46
 }
 
 .login-input:focus {
@@ -37,12 +53,16 @@
   flex-direction: column;
   gap: 12px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c982e1fd69a4f72bbe24196cbe06f93e329bfa46
 .login-background {
   background-image: url("/img/Fondo-Login.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+<<<<<<< HEAD
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -80,4 +100,6 @@
 
 .login-button:hover {
   background-color: #EF6C00;
+=======
+>>>>>>> c982e1fd69a4f72bbe24196cbe06f93e329bfa46
 }

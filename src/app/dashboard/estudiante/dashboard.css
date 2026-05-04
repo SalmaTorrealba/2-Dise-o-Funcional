@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .dashboard-layout {
   display: flex;
   width: 100%;
@@ -77,3 +78,121 @@
   box-shadow: 0 6px 18px rgba(0,0,0,0.22);
   background: linear-gradient(135deg, #ff9800, #f57c00);
 }
+=======
+/* Contenedor principal */
+.dashboard-container {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Menú lateral */
+.dashboard-sidebar {
+  background: #f3f3f3; /* gris suave */
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  min-width: 240px;
+
+}
+
+/* Contenido principal */
+.dashboard-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Tarjetas */
+.dashboard-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Títulos */
+.dashboard-card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.dashboard-card input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+/* Botones */
+.btn-orange {
+  background: #F57C00;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-orange:hover {
+  background: #EF6C00;
+}
+/* Panel contenedor */
+.panel-header {
+  background: #e7e7e7; /* gris un poco más marcado */
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.panel-link {
+  color: #333;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.panel-link:hover {
+  color: #F57C00;
+}
+
+/* Menú lateral dentro del panel */
+.panel-menu {
+  background: white;
+  padding: 25px;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.panel-item {
+  display: block;
+  padding: 10px 0;
+  color: #555;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.panel-item:hover {
+  color: #F57C00;
+}
+.dashboard-background {
+  background-image: url("/img/Fondo-Login.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+>>>>>>> c982e1fd69a4f72bbe24196cbe06f93e329bfa46

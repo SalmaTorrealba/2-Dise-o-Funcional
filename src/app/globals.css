@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
 /* --- FIX GLOBAL PARA QUE EL FONDO NO TAPE NADA --- */
 
@@ -22,3 +23,6 @@ body::before,
   box-sizing: border-box;
 }
 
+=======
+@tailwind utilities;
+>>>>>>> c982e1fd69a4f72bbe24196cbe06f93e329bfa46

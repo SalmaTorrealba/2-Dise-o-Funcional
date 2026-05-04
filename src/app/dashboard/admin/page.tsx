@@ -1,5 +1,6 @@
 "use client";
 
+<<<<<<< HEAD
 import React from "react";
 import "./admin.css";
 import dynamic from "next/dynamic";
@@ -96,6 +97,25 @@ function DashboardCard({ icon, title, value, subtext, miniChart }: DashboardCard
       {miniChart && (
         <img src={miniChart} alt="mini chart" className="card-mini-chart" />
       )}
+=======
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { useUserStore } from "@/store/useUserStore";
+
+export default function AdminDashboard() {
+  const router = useRouter();
+  const { role } = useUserStore();
+
+  useEffect(() => {
+    if (role && role !== "admin") {
+      router.push(`/dashboard/${role}`);
+    }
+  }, [role, router]);
+
+  return (
+    <div>
+      <h1>Dashboard Admin</h1>
+>>>>>>> c982e1fd69a4f72bbe24196cbe06f93e329bfa46
     </div>
   );
 }
